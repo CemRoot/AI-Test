@@ -1,0 +1,52 @@
+{
+  "image": "e4c7b5f93a1b056ed0dc4a26622c3ee0.jpg",
+  "gemini": {
+    "model": "Gemini",
+    "response": {
+      "error": {
+        "code": 401,
+        "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+        "status": "UNAUTHENTICATED"
+      }
+    },
+    "time": 0.1357710361480713,
+    "cost": 0.0001
+  },
+  "openai": {
+    "model": "OpenAI",
+    "response": {
+      "error": {
+        "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.",
+        "type": "insufficient_quota",
+        "param": null,
+        "code": "insufficient_quota"
+      }
+    },
+    "time": 0.1430680751800537,
+    "cost": 0.0001
+  },
+  "claude": {
+    "model": "Claude",
+    "response": {
+      "type": "error",
+      "error": {
+        "type": "not_found_error",
+        "message": "Not Found"
+      }
+    },
+    "time": 0.15512895584106445,
+    "cost": 0.0001
+  },
+  "google_vision": {
+    "model": "Google Vision",
+    "response": "\u6b63 \u786e \u9009 \u62e9 \u6309 \u6469 \u4eea \u5e26 \u6765 \u4e0d \u4e00 \u6837 \u7684 \u6309 \u6469 \u4f53 \u9a8c \u54c1 \u8fb0 \u5176 \u4ed6 \u54c1 \u724c \u667a \u80fd \u5934 \u90e8 \u6309 \u6469 \u4eea \u5934 \u90e8 \u6309 \u6469 \u4eea \u4e0d \u538b \u8feb \u5934 \u90e8 \u8212 \u9002 \u6309 \u6469 \u6309 \u6469 \u529b \u5ea6 \u6070 \u5230 \u597d \u5904 \u529b \u5ea6 \u8fc7 \u5927 \u538b \u75bc \u5934 \u90e8 \u4e0d \u4ec5 \u4e0d \u8fd4 \u677e \u8fd8 \u4f24 \u5934 \u90e8 3 6 0 \u5ea6 \u6c14 \u56ca \u6309 \u6469 \u6c14 \u56ca \u5305 \u56f4 \u5934 \u90e8 \u25cf \u65e0 \u6c14 \u56ca \u6309 \u6469 \u51f8 \u70b9 \u5f0f \u6309 \u6469 \u635f \u4f24 \u5934 \u90e8 \u53cc \u6863 \u70ed \u6577 \u6309 \u6469 \u8212 \u7f13 \u773c \u775b \u9178 \u75db \u75b2 \u52b3 \u5e72 \u6da9 \u25cf \u529f \u80fd \u5355 \u4e00 \u53ea \u6709 \u6309 \u6469 \u6ca1 \u6709 \u70ed \u6577 \u529f \u80fd \u4eba \u4f53 \u5de5 \u5b66 \u8bbe \u8ba1 \u7acb \u4f53 \u5168 \u5305 , \u4f69 \u6234 \u8212 \u9002 \u25cf \u8bbe \u8ba1 \u4e0d \u5408 \u7406 \u4e0d \u8d34 \u5408 \u8138 \u578b , \u4f69 \u6234 \u4e0d \u9002",
+    "time": 0.3204538822174072,
+    "cost": 0.0001
+  },
+  "translation": {
+    "model": "Hugging Face",
+    "response": "Translate Chines to English: It is correct to choose between different types of Modometer-based tests of the Molemeter's head, which are not pressured by the Moorometer's head by the Moorometer's head, which is not pressured by the Moor's head, which is overstretched by the Moor's head, which is overstretched by the Moor's head, which is overstretched by the Moor's head, which is overstretched by heat, which is overstretched by the Moor's head, which is overstretched by the Moor's head, which is overstretched by the Moor's head, which is not overstretched by the Moor's head, which is overstretched by the Moor's head, which is overstretched by the dry head, which is overst, which is overstreaked by the dry head, which is overst, which is under the Moor'scorded, which is untched, which is untched, which has no heat, which is lighted, which is lighted, which is low, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no heat, which has no",
+    "time": 12.156031131744385,
+    "cost": 0.0001
+  }
+}
