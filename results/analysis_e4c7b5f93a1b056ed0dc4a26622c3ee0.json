@@ -1,0 +1,68 @@
+{
+  "prompt_pipeline": {
+    "gemini": {
+      "response": {
+        "error": {
+          "code": 401,
+          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+          "status": "UNAUTHENTICATED"
+        }
+      },
+      "time_spent_sec": 0.20356011390686035,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "openai": {
+      "response": {
+        "error": {
+          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_api_key"
+        }
+      },
+      "time_spent_sec": 0.2152090072631836,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "anthropic": {
+      "response": {
+        "id": "msg_01AgdHBS3S2qtNaDL4cqQ8SF",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-opus-20240229",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu görsel iki farklı sanal gerçeklik gözlüğünün özelliklerini karşılaştırıyor.\n\nSoldaki gözlük akıllı başlık tarzındadır ve özellikle oyun oynamak için tasarlanmış gibi görünüyor. Aşağıdaki açıklamada kablosuz bağlantı, 360 derece ses, çift görüş açısı ve insan vücudu algılama gibi yeteneklerinden bahsedilmiş.\n\nSağdaki gözlük ise daha basit bir tasarıma sahip ve daha çok genel amaçlı sanal gerçeklik deneyimi sunmak için tasarlandığı izlenimini veriyor. Özellikleri arasında ayarlanabilir büyüklük, çift mercek, geniş görüş açısı, ısı dağıtımı ve aşınmaya karşı dayanıklılık sayılmış.\n\nİki gözlük de sanal gerçeklik teknolojisinden faydalansa da hedef kitleleri ve kullanım amaçları farklı gibi duruyor. Biri daha çok oyunculara hitap ederken diğeri daha geniş bir kullanıcı kitlesine yönelik hazırlanmış."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1597,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 354
+        }
+      },
+      "time_spent_sec": 14.39160704612732,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "ocr_translation_pipeline": {
+    "ocr": {
+      "extracted_text": "正确\n选择\n按摩\n仪\n带来\n不\n一样\n的\n按摩\n体验\n品\n辰\n其他\n品牌\n智能\n头部\n按摩\n仪\n头部\n按摩\n仪\n不\n压迫\n头部\n舒适\n按摩\n按摩\n力度\n恰到好处\n力度\n过\n大\n压\n疼\n头部\n不仅\n不\n返\n松\n还\n伤\n头部\n360\n度\n气囊\n按摩\n气囊\n包围\n头部\n●\n无\n气囊\n按摩\n凸点\n式\n按摩\n损伤\n头部\n双\n档\n热敷\n按摩\n舒缓\n眼睛\n酸痛\n疲劳\n干涩\n●\n功能\n单一\n只有\n按摩\n没有\n热敷\n功能\n人体工学\n设计\n立体\n全\n包\n,\n佩戴\n舒适\n●\n设计\n不合理\n不\n贴\n合\n脸型\n,\n佩戴\n不适",
+      "time_spent_sec": 0.30684375762939453,
+      "cost": 0.0005,
+      "text_length": 252
+    },
+    "translation": {
+      "translated_text": "The correct selection of massage machines brings in different massages, as well as other branded massages, smart head massages, head massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, pains, dry fatigues, and a single function.",
+      "time_spent_sec": 3.1013948917388916,
+      "cost": 0.0003,
+      "text_length": 536
+    }
+  }
+}

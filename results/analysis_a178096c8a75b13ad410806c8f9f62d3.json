@@ -1,0 +1,68 @@
+{
+  "prompt_pipeline": {
+    "gemini": {
+      "response": {
+        "error": {
+          "code": 401,
+          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+          "status": "UNAUTHENTICATED"
+        }
+      },
+      "time_spent_sec": 0.19170594215393066,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "openai": {
+      "response": {
+        "error": {
+          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_api_key"
+        }
+      },
+      "time_spent_sec": 0.4715592861175537,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "anthropic": {
+      "response": {
+        "id": "msg_012U3Cz9SkGnFyyuemMqq1rp",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-opus-20240229",
+        "content": [
+          {
+            "type": "text",
+            "text": "Görsel, sanal gerçeklik gözlüklerinin çeşitli açılardan çekilmiş fotoğraflarını göstermektedir. Çerçeve içindeki fotoğraflar, cihazın farklı özelliklerine ve işlevlerine dikkat çekmektedir.\n\nFotoğrafların ortasında bir kişinin VR gözlüğünü giydiği ve cihazı deneyimlediği görülüyor. Diğer görüntüler cihazın yakından çekilmiş detaylarını gösteriyor.\n\nBaşlık metni \"Güçlü ayarlanabilir bölümlü çok açılı fotoğraf\" anlamına gelmektedir. Bu, kullanılan fotoğraf tekniğini belirtir ve cihazın her yönünü göstermeyi amaçlar.\n\nGenel olarak görsel, bir VR gözlüğünün kapsamlı bir tanıtımını yapmayı ve ürünü potansiyel müşterilere çekici kılmayı hedefliyor gibi görünüyor. Çoklu açılardan fotoğraflar kullanma, cihazın tasarımını ve özelliklerini vurgulamak için etkili bir yöntem olarak kullanılmış."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1382,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 351
+        }
+      },
+      "time_spent_sec": 13.527695178985596,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "ocr_translation_pipeline": {
+    "ocr": {
+      "extracted_text": "好评\n如潮\n众多\n买家\n晒图\n分享",
+      "time_spent_sec": 0.2690460681915283,
+      "cost": 0.0005,
+      "text_length": 17
+    },
+    "translation": {
+      "translated_text": "It's good. It's like the tide, lots of buyers, sun charts, sharing.",
+      "time_spent_sec": 0.3759732246398926,
+      "cost": 0.0003,
+      "text_length": 67
+    }
+  }
+}

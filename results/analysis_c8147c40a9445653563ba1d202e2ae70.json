@@ -1,0 +1,68 @@
+{
+  "prompt_pipeline": {
+    "gemini": {
+      "response": {
+        "error": {
+          "code": 401,
+          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+          "status": "UNAUTHENTICATED"
+        }
+      },
+      "time_spent_sec": 0.2359452247619629,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "openai": {
+      "response": {
+        "error": {
+          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_api_key"
+        }
+      },
+      "time_spent_sec": 0.2703549861907959,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "anthropic": {
+      "response": {
+        "id": "msg_018Y63QzsFA8U3QRse9ERnLn",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-opus-20240229",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu görsel bir elektrikli kafa masaj cihazını tanıtıyor ve özelliklerini listeliyor. Görüntü üzerinde cihazın kumandası ve çeşitli masaj modları gösteriliyor:\n\n- 5 hız ayarı\n- 15 dakika zamanlayıcı  \n- İngilizce ses kontrolü\n- Ayarlanabilir kafa bandı\n- Ses hatırlatma\n- İç aydınlatma\n- Güç göstergesi\n- Güçlü kontrol\n\nMetin ayrıca aleti \"çok fonksiyonlu ve akıllı\" olarak nitelendiriyor ve kullanımının baş ağrısı ve uykuya dalma sorunlarına fayda sağlayabileceğini belirtiyor. Bu tür bir cihaz, stresli günlük yaşamın akabinde evde konforlu bir baş masajı sağlayabilir."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1185,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 255
+        }
+      },
+      "time_spent_sec": 10.75009298324585,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "ocr_translation_pipeline": {
+    "ocr": {
+      "extracted_text": "旗舰\n款\n金色\n/\n有\n眼\n头盔\n+\n遥控\n②5\n种\n模式\n②15\n分钟\n定时\n②\n中\n英文\n切换\n②\n可\n连接\n蓝牙\n②\n语音\n提示\n②\n内置\n音乐\n新\n升级\n②\n力度\n稍大\n遥控\n控制\n头部\n颈部\n多\n频\n震动\n气囊\n按压\n热敷\n功能\n开关\nAN\nDIN\n模式\nT\n-\nBV\n播放\n/\n暫停",
+      "time_spent_sec": 0.362091064453125,
+      "cost": 0.0005,
+      "text_length": 147
+    },
+    "translation": {
+      "translated_text": "Flagship gold / 25 models with eye helmets + remote control 215 minutes 2 minutes in English to switch 2 minutes to connect bluetooth 2 voice prompt 2 built-in music 2 new upgrades slightly larger remote control head multi-frequency vibrating airbags press pressure on ADIN mode T-BV play/ pause",
+      "time_spent_sec": 0.9991452693939209,
+      "cost": 0.0003,
+      "text_length": 295
+    }
+  }
+}

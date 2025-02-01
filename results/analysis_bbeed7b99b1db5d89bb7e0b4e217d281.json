@@ -1,0 +1,68 @@
+{
+  "prompt_pipeline": {
+    "gemini": {
+      "response": {
+        "error": {
+          "code": 401,
+          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+          "status": "UNAUTHENTICATED"
+        }
+      },
+      "time_spent_sec": 0.18535423278808594,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "openai": {
+      "response": {
+        "error": {
+          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_api_key"
+        }
+      },
+      "time_spent_sec": 0.25045084953308105,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "anthropic": {
+      "response": {
+        "id": "msg_01HMXarKVq86e6FrrpdFiAYb",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-opus-20240229",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu görsel, bir akıllı kask ve cep telefonu kullanan bir kadını göstermektedir. Arka planda Çince metin bulunmaktadır ve \"Müzik açılması, kafanızdaki ağırlığı azaltır\" anlamına gelmektedir.\n\nAkıllı kask, hafif ve kompakt bir tasarıma sahip, kullanıcının kafasını tamamen saran bir yapıdadır. Kablosuz bağlantı ve dahili hoparlörler sayesinde müzik dinleme deneyimi sunar.\n\nGörüntüdeki kadın, akıllı kaskı kafasında tutan ve cep telefonunu elinde kontrol eden zarif bir duruşa sahiptir. Beyaz üstü ve net yüz hatları ile şık bir görünüm sergilemektedir.\n\nGenel olarak, bu reklam görseli akıllı kaskın rahatlık, taşınabilirlik ve eğlence özelliklerini vurgulayarak hedef kitleye ulaşmayı amaçlamaktadır. Tasarımı ve fonksiyonları ile günlük hayata uyum sağlayan inovatif bir ürün olarak sunulmaktadır."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1597,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 328
+        }
+      },
+      "time_spent_sec": 15.162378072738647,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "ocr_translation_pipeline": {
+    "ocr": {
+      "extracted_text": "全新\n升级\n舒缓\n头痛\n舒缓\n疲劳\n-\n放松\n减压\n-\n轻松\n入眠\n#mf",
+      "time_spent_sec": 0.22652196884155273,
+      "cost": 0.0005,
+      "text_length": 37
+    },
+    "translation": {
+      "translated_text": "All new, upgrades, relief, headaches, relief, fatigue - relax, depressurize - ease, sleep #mf",
+      "time_spent_sec": 0.5108568668365479,
+      "cost": 0.0003,
+      "text_length": 93
+    }
+  }
+}

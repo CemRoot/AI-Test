@@ -1,0 +1,68 @@
+{
+  "prompt_pipeline": {
+    "gemini": {
+      "response": {
+        "error": {
+          "code": 401,
+          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
+          "status": "UNAUTHENTICATED"
+        }
+      },
+      "time_spent_sec": 0.16534090042114258,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "openai": {
+      "response": {
+        "error": {
+          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
+          "type": "invalid_request_error",
+          "param": null,
+          "code": "invalid_api_key"
+        }
+      },
+      "time_spent_sec": 0.17998313903808594,
+      "cost": 0.001,
+      "token_size": 0
+    },
+    "anthropic": {
+      "response": {
+        "id": "msg_01MrnMFxY7BRsj1YBDMf32s4",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-opus-20240229",
+        "content": [
+          {
+            "type": "text",
+            "text": "Bu görsel bir taşınabilir şarj cihazının (powerbank) ürün özelliklerini içeren bir etiket görüntüsüdür. Etiket üzerindeki bilgilere göre:\n\nÜrün adı: Çok Fonksiyonlu Kablosuz Şarj Cihazı\nÜrün modeli: ZC-608  \nPil kapasitesi: 3200mAh\nNominal gerilim: 5V\nNominal güç: 5W\nŞarj süresi: 5 saat\nÜrün ağırlığı: 1.0kg\n\nEtiket Çince metinler içerdiğinden, büyük olasılıkla bu ürün Çin'den gelmiş veya Çin pazarı için tasarlanmış bir powerbank modelidir. Güç spesifikasyonları ve pil kapasitesi standart bir taşınabilir şarj cihazı için makul değerler içermektedir."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1583,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 269
+        }
+      },
+      "time_spent_sec": 10.786750793457031,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "ocr_translation_pipeline": {
+    "ocr": {
+      "extracted_text": "产品\n信息\n产品\n名称\n产品\n型号\n电池\n容量\n多功能\n头部\n按摩\n仪\nzc\n-\n608\n3200mAh\n额定\n电压\n品牌\n额定\n功率\n5V\n5W\n品\n辰\n产品\n功能\n充电\n时间\n产品\n净重\n气囊\n/\n震动\n/\n热敷\n/\n蓝牙\n5h\n1.0KG",
+      "time_spent_sec": 0.20487594604492188,
+      "cost": 0.0005,
+      "text_length": 122
+    },
+    "translation": {
+      "translated_text": "Product Information Product Name Product Product Type Product Type Battery Capacity Multifunctional Head Masseur zc - 608 3200m Ah Rating Voltage Brand Quantified Power 5V 5W Equature Product Function Charged Time Product Net Heavy Gas Bag / Vibration / Heat Added / Bluetooth 5h 1.0 KG",
+      "time_spent_sec": 1.1930651664733887,
+      "cost": 0.0003,
+      "text_length": 286
+    }
+  }
+}
