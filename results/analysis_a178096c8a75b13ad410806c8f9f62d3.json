@@ -1,40 +1,164 @@
 {
-  "prompt_pipeline": {
-    "gemini": {
+  "Gemini": {
+    "gemini-1.5-pro": {
       "response": {
-        "error": {
-          "code": 401,
-          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
-          "status": "UNAUTHENTICATED"
-        }
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Görsel, büyük olasılıkla bir baş masaj aleti veya uyku maskesi gibi bir baş giyilebilir cihazını sergiliyor. Reklam veya ürün tanıtımı amacıyla kullanılmış gibi görünüyor. Çince başlık \"好评如潮 众多买家晒图分享\" kabaca \"Övgüler akın ediyor, birçok alıcı fotoğraflarını paylaşıyor\" anlamına geliyor ve bu da alıcı geri bildirimlerine odaklandığını gösteriyor.\n\nİşte daha detaylı bir analiz:\n\n* **Cihazın kendisi:** Beyaz ve siyah plastikten yapılmış gibi görünüyor.  Üstte dairesel bir parça ve gözleri kapatan bir kısım var. Katlanabilir veya açılabilir bir mekanizması olduğu görülüyor.  Bazı fotoğraflarda cihazın açık, bazılarında ise kapalı hali gösteriliyor.  Dairesel kısımda, muhtemelen açma/kapama veya mod değiştirme için bir düğme veya kontrol paneli bulunuyor.\n* **Kullanım örnekleri:** Görselde cihazı farklı kişilerin kullandığı çeşitli fotoğraflar yer alıyor.  Bu, cihazın farklı baş boyutlarına ve şekillerine uyum sağlayabileceğini gösteriyor olabilir. Bir fotoğrafta bir kadın cihazı takarken rahatlamış görünüyor, bu da rahatlık veya uyku yardımı gibi bir kullanım amacını ima ediyor olabilir.\n* **Arka planlar:** Fotoğrafların arka planları çeşitlilik gösteriyor.  Bazıları düz renk bir arka plana sahipken, diğerlerinde desenli kumaşlar veya mobilyalar görülüyor. Bu, muhtemelen cihazın farklı ortamlarda kullanılabilirliğini vurgulamak için yapılmış.\n* **Kompozisyon:** Görsel, ana fotoğrafın etrafına daha küçük fotoğrafların yerleştirildiği bir kolaj şeklinde düzenlenmiş. Bu düzen, birçok kullanıcı deneyimini tek bir görselde sunarak ürünün popülerliğini vurgulamayı amaçlıyor.\n* **Hedef kitle:** Görsel, rahatlama, uyku yardımı veya baş ağrısı gibi sorunlara çözüm arayan kişilere yönelik gibi görünüyor.  Reklamın dili (\"övgüler akın ediyor\") ve kullanılan görseller, potansiyel alıcıları ürünü satın almaya ikna etmeyi hedefliyor.\n\nKısacası, görsel, bir baş giyilebilir cihazını sergilemek ve kullanıcı geri bildirimleri aracılığıyla güvenilirliğini artırmak için tasarlanmış bir reklam veya ürün tanıtımı. Cihazın tam işlevi net olarak belirtilmemiş olsa da, rahatlama ve uyku ile ilgili bir amaca hizmet ettiği ima ediliyor.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "avgLogprobs": -0.3596392349458077
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 568,
+          "totalTokenCount": 838,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 568
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
       },
-      "time_spent_sec": 0.19170594215393066,
+      "time_spent_sec": 11.854135990142822,
       "cost": 0.001,
       "token_size": 0
     },
-    "openai": {
+    "gemini-1.5-flash": {
       "response": {
-        "error": {
-          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
-          "type": "invalid_request_error",
-          "param": null,
-          "code": "invalid_api_key"
-        }
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Görüntü, beyaz ve siyah renkli, kafaya takılan bir cihazı gösteren bir kolajdan oluşuyor. Cihazın çeşitli açılardan ve farklı kişiler tarafından kullanıldığı görünüyor. Resimdeki metin Çince olup, \"İyi yorumlar için daha fazla satın alma, fotoğraf paylaşımı\" anlamına geliyor gibi duruyor.\n\n\nDaha ayrıntılı bir analiz:\n\n\n* **Cihaz:** Cihaz, muhtemelen baş ağrısı veya migren tedavisinde kullanılan bir transkraniyal elektriksel stimülasyon (TES) cihazı veya benzer bir terapi cihazı gibi görünüyor. Göz kapaklarına ve kafa derisine temas eden bölümleri ve ayar düğmeleri var. Tasarımı ergonomik ve kullanımı kolay gibi görünüyor.\n\n* **Fotoğraflar:** Kolajda birden çok fotoğraf yer alıyor. Bazı fotoğraflar cihazın farklı açılardan görünümünü gösterirken, diğerleri de cihazın farklı kişiler tarafından nasıl kullanıldığını gösteriyor. Fotoğrafların kalitesi orta düzeyde. Arkaplanlar sade ve dikkat dağıtıcı değil.\n\n* **Metin:** Metin, ürünün müşteriler tarafından olumlu değerlendirilmesini ve sosyal medya paylaşımını teşvik ediyor. Bu pazarlama stratejisi, sosyal kanıt elde ederek ve daha geniş bir kitleye ulaşarak satışları artırmayı hedefliyor.\n\n* **Amaç:** Kolajın amacı, cihazı göstermek, kullanımını sergilemek ve potansiyel müşterileri satın almaya ikna etmektir. Olumlu yorumlar ve sosyal medya paylaşımının ürün satışlarını nasıl artırabileceğinin görsel bir gösterimi.\n\n* **Genel İzlenim:** Kolaj profesyonelce hazırlanmış gibi görünmüyor ama etkili bir şekilde ürünü tanıtıyor. Basit ve anlaşılır. Cihazın kullanışlı ve rahat olduğunu gösteriyor.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "avgLogprobs": -0.636842011242378
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 410,
+          "totalTokenCount": 680,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 410
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-flash"
       },
-      "time_spent_sec": 0.4715592861175537,
+      "time_spent_sec": 3.815040111541748,
       "cost": 0.001,
       "token_size": 0
     },
-    "anthropic": {
+    "gemini-1.5-flash-8b": {
       "response": {
-        "id": "msg_012U3Cz9SkGnFyyuemMqq1rp",
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Görsel, başa takılan, muhtemelen masaj veya tedavi amaçlı bir cihazın çeşitli açılardan gösterimlerini içeren bir reklamı veya tanıtımı göstermektedir.\n\nGörüntüler, farklı açılardan görünen birkaç cihaz gösterir. Cihaz, genel olarak beyaz ve siyah renklerdedir, çeşitli boyutlarda ve şekillerdedir, ancak tüm parçalar ortak bir tasarım ve fonksiyonellik göstermektedir. Baş bölümü, başın üzerine yerleştirilmiş ve başın etrafında hafif bir çerçeve oluşturan bir yapıdır. Ek olarak, bazı görüntülerde cihazın çeşitli konumları (açılmış veya kapalı) ve kullanım örnekleri bulunmaktadır. Birkaç kullanıcı örneği de göze çarpmaktadır, ancak bunlar temelde kullanıcının cihazı takmış halini göstermek için yerleştirilmiştir.\n\n**Ayrıntılı Analiz:**\n\n* **Cihazın İşlevi:** Cihazın tam işlevi görselde açıkça belirtilmemektedir. Ancak genel yapı ve tasarımı, masaj, baş ağrısı rahatlatma, rahatlatıcı ısıtma, akupunktur tarzı uyaranlar ya da benzer uygulamalar için kullanılabileceği fikrini akla getiriyor.\n* **Tasarım:** Cihaz, başın şekline uyarlanabilecek hafif esnek bir yapıya sahip görünüyor. Bu, çeşitli kafalar için uygun bir tasarım olduğunu düşündürüyor.\n* **Kullanım:** Cihazı takan kişiler, konforlu görünüyor, ancak kullanmanın genel konforu, yalnızca resimden tahmin edilemiyor.\n* **Hedef Kitle:** Görsellerdeki insanların özellikleri, ürünü çeşitli bireyler için uygun hale getirebilir gibi görünüyor.\n* **Pazarlama:**  Görseller, cihazın tasarımını ve uygunluğunu vurgulamak için kullanılan iyi bir pazarlama stratejisi örneğidir. Birden fazla görüntü, ürünü çeşitli açılardan göstererek ve ilgi çekici bir tasarıma sahip olduğundan potansiyel alıcıların ilgisini çekmeyi amaçlar. Cihazın temel özellikleri ve tasarım özellikleri vurgulanmaktadır.\n\n**Potansiyel Sorunlar/Konular:**\n\n* **İşlev açıklaması yok:** Görsel, cihazın tam olarak nasıl çalıştığı veya hangi faydalar sağladığı konusunda net bir açıklama içermiyor.\n* **Kullanım rahatlığı:** Kullanıcıların cihazı takarken veya kullanırken rahatlık dereceleri, görselde tam olarak gösterilmiyor.\n* **Güvenilirlik/Kalite:** Cihazın güvenilirliği ve kalitesi hakkında bilgi yok.\n\n**Sonuç:**\n\nGörsel, potansiyel müşterileri cihazın kullanılabilecek farklı şekilleri ve olası avantajlarıyla yakalamak için iyi bir tasarım ve sunum kullanmaktadır. Cihazın doğru kullanım amacını ve avantajlarını belirtmek için daha fazla bilgi verilmesi önemlidir.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "safetyRatings": [
+              {
+                "category": "HARM_CATEGORY_HATE_SPEECH",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_HARASSMENT",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                "probability": "NEGLIGIBLE"
+              }
+            ],
+            "avgLogprobs": -1.07685361328125
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 625,
+          "totalTokenCount": 895,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 625
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-flash-8b-001"
+      },
+      "time_spent_sec": 3.481414318084717,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "Anthropic": {
+    "claude-3-5-sonnet-20240620": {
+      "response": {
+        "id": "msg_01J1am8aJX7hXRgvce48Nz91",
         "type": "message",
         "role": "assistant",
-        "model": "claude-3-opus-20240229",
+        "model": "claude-3-5-sonnet-20240620",
         "content": [
           {
             "type": "text",
-            "text": "Görsel, sanal gerçeklik gözlüklerinin çeşitli açılardan çekilmiş fotoğraflarını göstermektedir. Çerçeve içindeki fotoğraflar, cihazın farklı özelliklerine ve işlevlerine dikkat çekmektedir.\n\nFotoğrafların ortasında bir kişinin VR gözlüğünü giydiği ve cihazı deneyimlediği görülüyor. Diğer görüntüler cihazın yakından çekilmiş detaylarını gösteriyor.\n\nBaşlık metni \"Güçlü ayarlanabilir bölümlü çok açılı fotoğraf\" anlamına gelmektedir. Bu, kullanılan fotoğraf tekniğini belirtir ve cihazın her yönünü göstermeyi amaçlar.\n\nGenel olarak görsel, bir VR gözlüğünün kapsamlı bir tanıtımını yapmayı ve ürünü potansiyel müşterilere çekici kılmayı hedefliyor gibi görünüyor. Çoklu açılardan fotoğraflar kullanma, cihazın tasarımını ve özelliklerini vurgulamak için etkili bir yöntem olarak kullanılmış."
+            "text": "Bu görsel, sanal gerçeklik (VR) başlığı veya gözlüğü olarak görünen bir ürünün tanıtımını yapıyor. Görsel, ürünün farklı açılardan çekilmiş fotoğraflarını içeren bir kolajdan oluşuyor.\n\nGörselin üst kısmında Çince karakterlerle yazılmış bir başlık var. Arka planda, ürünü kullanan kişilerin küçük fotoğraflarından oluşan bir kolaj görünüyor.\n\nAna görsel dört bölüme ayrılmış:\n\n1. Sol üstte: Birinin elinde tuttuğu VR gözlüğü.\n2. Sağ üstte: Siyah-beyaz desenli bir zemin üzerinde duran VR gözlüğü.\n3. Sol altta: Bir kişinin VR gözlüğünü takarken çekilmiş fotoğrafı.\n4. Sağ altta: Kareli bir zemin üzerinde duran VR gözlüğü.\n\nÜrün genel olarak beyaz renkli ve ergonomik bir tasarıma sahip görünüyor. Gözlüğün üzerinde ayarlanabilir bantlar ve muhtemelen kontrol düğmeleri var.\n\nBu görsel, ürünün farklı kullanım şekillerini ve detaylarını göstererek potansiyel alıcılara ürün hakkında bilgi vermeyi amaçlıyor. Ayrıca, arka plandaki küçük fotoğraflar ürünün popülerliğini vurgulamaya çalışıyor gibi görünüyor."
           }
         ],
         "stop_reason": "end_turn",
@@ -43,24 +167,75 @@
           "input_tokens": 1382,
           "cache_creation_input_tokens": 0,
           "cache_read_input_tokens": 0,
-          "output_tokens": 351
+          "output_tokens": 455
         }
       },
-      "time_spent_sec": 13.527695178985596,
+      "time_spent_sec": 8.470938205718994,
+      "cost": 0.010971000000000002,
+      "token_size": 0
+    },
+    "claude-3-haiku-20240307": {
+      "response": {
+        "id": "msg_01ATTubDqZoK5551pZpofUQg",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-haiku-20240307",
+        "content": [
+          {
+            "type": "text",
+            "text": "Görsel, sanal gerçeklik gözlükleri ve aksesuarlarıyla ilgili bir ürün tanıtımı görünüyor. Görselde, çeşitli modellerde ve tasarımlarda sanal gerçeklik gözlükleri ve aksesuarları görülüyor. Görselde yer alan aktüel ürün görselleri, kullanıcının sanal gerçeklik deneyimini nasıl geliştirebileceğini gösteriyor. Ayrıca, görsel birden fazla sanal gerçeklik cihazının çeşitli özellikleriyle ilgili bilgi sunuyor. Genel olarak, bu görsel, sanal gerçeklik teknolojileri hakkında daha fazla bilgi edinmek isteyen kullanıcıları hedefliyor."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1382,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 223
+        }
+      },
+      "time_spent_sec": 2.3915328979492188,
+      "cost": 0.00062425,
+      "token_size": 0
+    },
+    "claude-3-opus-20240229": {
+      "response": {
+        "type": "error",
+        "error": {
+          "type": "overloaded_error",
+          "message": "Overloaded"
+        }
+      },
+      "time_spent_sec": 5.805810213088989,
       "cost": 0.001,
       "token_size": 0
     }
   },
-  "ocr_translation_pipeline": {
+  "HuggingFace": {
+    "BLIP-Base": {
+      "response": [
+        {
+          "generated_text": "a woman wearing a virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual virtual"
+        }
+      ],
+      "time_spent_sec": 0.6474990844726562,
+      "cost": 0.001,
+      "token_size": 20
+    }
+  },
+  "OCR": {
     "ocr": {
       "extracted_text": "好评\n如潮\n众多\n买家\n晒图\n分享",
-      "time_spent_sec": 0.2690460681915283,
-      "cost": 0.0005,
+      "time_spent_sec": 0.2803361415863037,
+      "cost": 0.0,
       "text_length": 17
-    },
-    "translation": {
+    }
+  },
+  "Translation": {
+    "huggingface": {
       "translated_text": "It's good. It's like the tide, lots of buyers, sun charts, sharing.",
-      "time_spent_sec": 0.3759732246398926,
+      "time_spent_sec": 0.4645199775695801,
       "cost": 0.0003,
       "text_length": 67
     }

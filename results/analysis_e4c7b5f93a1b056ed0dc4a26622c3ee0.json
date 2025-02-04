@@ -1,40 +1,164 @@
 {
-  "prompt_pipeline": {
-    "gemini": {
+  "Gemini": {
+    "gemini-1.5-pro": {
       "response": {
-        "error": {
-          "code": 401,
-          "message": "Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.",
-          "status": "UNAUTHENTICATED"
-        }
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Bu görsel, bir baş masaj cihazının reklamı ve rakiplerinden üstün olduğunu iddia ediyor. Sol tarafta tanıtılan \"Kaliteli Akıllı Baş Masaj Cihazı\" ve sağ tarafta ise \"Diğer Marka Baş Masaj Cihazları\" olarak adlandırılan karşılaştırma yapılıyor.\n\n**Kaliteli Akıllı Baş Masaj Cihazı (Sol Taraf):**\n\n* **Görsel:** Beyaz ve siyah renklerde, modern ve ergonomik bir tasarıma sahip görünüyor.  Gözleri kapatan bir bölüm ve başın üst kısmını saran bir mekanizma mevcut.\n* **Özellikler:**\n    * **Başa baskı yapmaz, rahat masaj:** Masaj gücü uygun miktarda.\n    * **360 derece hava yastığı masajı:**  Hava yastıkları başı sarıyor.\n    * **İki kademeli sıcak kompres masajı:** Göz yorgunluğunu ve kuruluğu giderir.\n    * **Ergonomik tasarım:**  Tam kapsama alanı ve rahat kullanım sağlar.\n\n**Diğer Marka Baş Masaj Cihazları (Sağ Taraf):**\n\n* **Görsel:** Bulanık ve basit bir tasarıma sahip. Sol taraftaki cihaz kadar sofistike görünmüyor.\n* **Dezavantajlar:**\n    * **Çok fazla baskı, baş ağrısına neden olur:** Rahatlatmak yerine acı verir.\n    * **Hava yastığı masajı yok:**  Çıkıntılı noktalar ile masaj yapar ve bu da başa zarar verebilir.\n    * **Tek fonksiyonlu:** Sadece masaj yapar, sıcak kompres özelliği yoktur.\n    * **Tasarım uygun değil:**  Yüze tam oturmaz ve rahat değildir.\n\n**Genel Analiz:**\n\nGörsel, \"Kaliteli Akıllı Baş Masaj Cihazı\"nı, rakiplerinden daha üstün göstermek için tasarlanmış. Rakip ürünlerin dezavantajlarını vurgulayarak kendi ürününün avantajlarını öne çıkarıyor.  Kullanılan tik işaretleri ve çarpı işaretleri, karşılaştırmayı daha net hale getiriyor. Bulanıklaştırılmış rakip ürün görseli, kalitesizlik algısı yaratmayı amaçlıyor. Reklam, tüketicileri daha konforlu, özellikli ve ergonomik bir baş masaj cihazı arayışındaysa, kendi ürünlerini tercih etmeye yönlendirmeyi hedefliyor.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "avgLogprobs": -0.20823158421614826
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 533,
+          "totalTokenCount": 803,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 533
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-pro-002"
       },
-      "time_spent_sec": 0.20356011390686035,
+      "time_spent_sec": 12.87732982635498,
       "cost": 0.001,
       "token_size": 0
     },
-    "openai": {
+    "gemini-1.5-flash": {
       "response": {
-        "error": {
-          "message": "Incorrect API key provided: Ysk-proj*********************************************************************************************************************************************************eWsA. You can find your API key at https://platform.openai.com/account/api-keys.",
-          "type": "invalid_request_error",
-          "param": null,
-          "code": "invalid_api_key"
-        }
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Görsel, bir marka (\"品辰\" - Pinchen olarak çevrilebilir) ile diğer markaların baş masaj cihazlarını karşılaştıran bir reklamdır.  Karşılaştırma, her bir cihazın özelliklerini listeleyen iki sütun halinde sunulmuştur.\n\n**Sol Sütun (Pinchen Markası):**  Bu sütun, Pinchen markalı cihazın avantajlarını vurgular.  Aşağıdaki özellikler olumlu olarak vurgulanıyor:\n\n* **Rahat Baş Desteği:** Cihazın başı sıkıştırmadan rahat bir şekilde masaj yaptığını, basıncın hassas bir şekilde ayarlandığını belirtir.\n* **360 Derece Hava Yastıklı Masaj:** Cihazın başı tamamen çevreleyen hava yastıklarının kullanıldığını ve kapsamlı bir masaj sağladığını belirtir.\n* **Çift Kademeli Isıtmalı Masaj:** Cihazın ayrıca ısıtma fonksiyonuna sahip olduğunu ve göz yorgunluğunu ve ağrılarını gidermeye yardımcı olduğunu belirtir.\n* **Ergonomik Tasarım:** Cihazın insan vücuduna uygun tasarımı sayesinde rahat bir kullanım sunduğunu belirtir.\n\n\n**Sağ Sütun (Diğer Markalar):**  Bu sütun, diğer markaların baş masaj cihazlarının dezavantajlarını vurgular. Aşağıdaki özellikler olumsuz olarak vurgulanıyor:\n\n* **Aşırı Basınç:** Cihazın çok fazla basınç uygulayarak baş ağrısına ve rahatsızlığa neden olduğunu belirtir.\n* **Hava Yastığı Eksikliği:**  Diğer markaların cihazlarının hava yastığı fonksiyonunun eksik olduğunu ve noktasal masajın başa zarar verebileceğini belirtir.\n* **Sınırlı Fonksiyon:** Diğer cihazların yalnızca masaj fonksiyonuna sahip olduğunu ve ısıtma fonksiyonunun olmadığını belirtir.\n* **Kötü Tasarım:** Diğer markaların cihazlarının ergonomik olmadığını ve başa tam oturmadığını, rahatsızlık verdiğini belirtir.\n\n\n**Genel Değerlendirme:**\n\nGörsel, Pinchen marka baş masaj cihazını diğer rakiplerinden üstün göstermek için bir karşılaştırma kullanıyor.  Olumlu ve olumsuz özellikleri vurgulamak yoluyla, Pinchen ürününün rahatlığı, kapsamlılığı ve ergonomik tasarımı ön plana çıkarılıyor.  Görseldeki kelimeler Çince, dolayısıyla hedef kitle Çince konuşan kişilerdir. Görselin amacı tüketiciyi Pinchen markalı cihazı tercih etmeye ikna etmektir.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "avgLogprobs": -0.37475698370682564
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 570,
+          "totalTokenCount": 840,
+          "promptTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            },
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 570
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-flash"
       },
-      "time_spent_sec": 0.2152090072631836,
+      "time_spent_sec": 6.05829930305481,
       "cost": 0.001,
       "token_size": 0
     },
-    "anthropic": {
+    "gemini-1.5-flash-8b": {
       "response": {
-        "id": "msg_01AgdHBS3S2qtNaDL4cqQ8SF",
+        "candidates": [
+          {
+            "content": {
+              "parts": [
+                {
+                  "text": "Görsel, bir \"akıllı baş masaj cihazı\" ürününün özelliklerini ve diğer cihazlarla karşılaştırılmasını gösteriyor.\n\n**Ürün:** \"Product Name: Akıllı Baş Masaj Cihazı\"\n\n**Özet:** Görsel, \"Porduct Name\" adlı bir akıllı baş masaj cihazının, rakip ürünlere göre üstünlüklerini vurguluyor. Metin içinde, cihazın ergonomik tasarımı ve 360 derecelik hava yastıklarıyla, kullanıcıların rahat ve etkili bir masaj deneyimi yaşayabilecekleri vurgulanıyor. Ayrıca, cihazın, başa zarar verebilecek aşırı kuvvet uygulaması ve yetersiz ısıtma gibi özellikleriyle rakiplerinden ayıran faktörler de gösteriliyor.\n\n**Özellikler ve Karşılaştırma:**\n\n**Olumlu özellikler:**\n\n* **Basınçlı baş ağrısı masajı:** Baş bölgesine aşırı baskı uygulanmadan rahat bir masaj sağlar\n* **360 derece hava yastıkları:** Tüm kafa derisini kapsayarak etkili bir masaj sunar\n* **Isıtma (iki kademe):** İki kademeli ısıtma seçeneği sayesinde, kullanıcının ihtiyaçlarına göre sıcaklık ayarlanabilir.\n* **Ergonomik tasarım:** Ergonomik tasarımı sayesinde başa uyum sağlaması ve rahat bir kullanım deneyimi sunması\n* **İnsan vücuduna uygun tasarım:** Masaj cihazının vücuda uyum sağlaması.\n\n**Olumsuz özellikler (rakip ürünlerle karşılaştırma):**\n\n* **Aşırı kuvvet uygulanması:** Baş bölgesine aşırı baskı uygulayarak rahatsızlıklara neden olabilir.\n* **Yetersiz ısıtma:** Cihaz ısıtma özelliği sunmuyor veya ısıtma fonksiyonu rakip ürünlere göre yetersiz.\n* **Tek fonksiyon:** Sadece masaj fonksiyonu yerine ısıtma veya diğer ek fonksiyonlar sunmuyor.\n* **Uygunsuz tasarım:** Kullanıcıya tam olarak uyum sağlamayabilir.\n* **Sıkıntılı tasarım:** Cihaz kullanıcının kafasına tam olarak uyum sağlamayabilir ve rahatsızlık verebilir.\n\n**Sonuç:**\n\nGörsel, \"Porduct Name\" adlı akıllı baş masaj cihazının rakip ürünlere göre üstünlüklerini gösteren bir karşılaştırma yapıyor. Ürün, hafif bir masaj, 360 derecelik hava yastıkları, rahat tasarım özellikleri ve iki ısı kademesiyle rakiplerinden ayrışıyor.  Ancak, eksi yönleri de açık bir şekilde gösteriliyor.  Potansiyel müşteriler, bu özellikleri ve rakip ürünlerle arasındaki farkları göz önünde bulundurarak karar vermeleri bekleniyor.\n"
+                }
+              ],
+              "role": "model"
+            },
+            "finishReason": "STOP",
+            "safetyRatings": [
+              {
+                "category": "HARM_CATEGORY_HATE_SPEECH",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_HARASSMENT",
+                "probability": "NEGLIGIBLE"
+              },
+              {
+                "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                "probability": "NEGLIGIBLE"
+              }
+            ],
+            "avgLogprobs": -0.719707476423912
+          }
+        ],
+        "usageMetadata": {
+          "promptTokenCount": 270,
+          "candidatesTokenCount": 606,
+          "totalTokenCount": 876,
+          "promptTokensDetails": [
+            {
+              "modality": "IMAGE",
+              "tokenCount": 258
+            },
+            {
+              "modality": "TEXT",
+              "tokenCount": 12
+            }
+          ],
+          "candidatesTokensDetails": [
+            {
+              "modality": "TEXT",
+              "tokenCount": 606
+            }
+          ]
+        },
+        "modelVersion": "gemini-1.5-flash-8b-001"
+      },
+      "time_spent_sec": 4.0177671909332275,
+      "cost": 0.001,
+      "token_size": 0
+    }
+  },
+  "Anthropic": {
+    "claude-3-5-sonnet-20240620": {
+      "response": {
+        "id": "msg_01RF6W3eEdD4xTwrR47Un3A5",
         "type": "message",
         "role": "assistant",
-        "model": "claude-3-opus-20240229",
+        "model": "claude-3-5-sonnet-20240620",
         "content": [
           {
             "type": "text",
-            "text": "Bu görsel iki farklı sanal gerçeklik gözlüğünün özelliklerini karşılaştırıyor.\n\nSoldaki gözlük akıllı başlık tarzındadır ve özellikle oyun oynamak için tasarlanmış gibi görünüyor. Aşağıdaki açıklamada kablosuz bağlantı, 360 derece ses, çift görüş açısı ve insan vücudu algılama gibi yeteneklerinden bahsedilmiş.\n\nSağdaki gözlük ise daha basit bir tasarıma sahip ve daha çok genel amaçlı sanal gerçeklik deneyimi sunmak için tasarlandığı izlenimini veriyor. Özellikleri arasında ayarlanabilir büyüklük, çift mercek, geniş görüş açısı, ısı dağıtımı ve aşınmaya karşı dayanıklılık sayılmış.\n\nİki gözlük de sanal gerçeklik teknolojisinden faydalansa da hedef kitleleri ve kullanım amaçları farklı gibi duruyor. Biri daha çok oyunculara hitap ederken diğeri daha geniş bir kullanıcı kitlesine yönelik hazırlanmış."
+            "text": "Bu görsel, bir akıllı baş masaj cihazının reklamını ve özelliklerini Çince olarak göstermektedir. Görselde iki farklı ürün karşılaştırılıyor:\n\n1. Sol tarafta \"品辰\" (Pinchen) markalı \"akıllı baş masaj cihazı\" tanıtılıyor. Bu ürün şu özelliklere sahip:\n   - Başa baskı uygulamadan nazik masaj\n   - 360 derece hava yastıklı masaj\n   - Çift arclı ısıtmalı masaj\n   - Ergonomik tasarım\n\n2. Sağ tarafta ise \"diğer markalar\"ın baş masaj cihazları gösteriliyor ve şu dezavantajları sıralanıyor:\n   - Aşırı güç uygulayarak başa zarar verme riski\n   - Hava yastıklı masaj özelliği yok\n   - Tek işlevli, ısıtma özelliği yok\n   - Uygun olmayan tasarım\n\nGörselin üst kısmında \"Doğru masaj cihazını seçerek farklı bir masaj deneyimi yaşayın\" yazıyor.\n\nBu reklam, Pinchen markalı ürünün diğer markalara göre üstünlüklerini vurgulayarak, tüketicileri kendi ürünlerini tercih etmeye yönlendirmeyi amaçlıyor."
           }
         ],
         "stop_reason": "end_turn",
@@ -43,24 +167,75 @@
           "input_tokens": 1597,
           "cache_creation_input_tokens": 0,
           "cache_read_input_tokens": 0,
-          "output_tokens": 354
+          "output_tokens": 413
         }
       },
-      "time_spent_sec": 14.39160704612732,
+      "time_spent_sec": 7.922698020935059,
+      "cost": 0.010986,
+      "token_size": 0
+    },
+    "claude-3-haiku-20240307": {
+      "response": {
+        "id": "msg_019MTPctuPTigcm6Q4XityFo",
+        "type": "message",
+        "role": "assistant",
+        "model": "claude-3-haiku-20240307",
+        "content": [
+          {
+            "type": "text",
+            "text": "Görselde sunulan bilgiler, bir \"doğru seçiciği masaj cihazı\" hakkında tanıtım içeriyor. Cihaz, geleneksel olmayan bir tasarımla ve öne çıkan özelliklerle sunuluyor. Görselde, cihazın \"doğru seçimcili\", \"360 derece gaz masajı\", \"çift ısı masajı\" gibi özellikleri vurgulanıyor. Ayrıca, cihazın diğer bazı marka/model ürünlerle karşılaştırılması da yapılıyor. Genel olarak, bu ürün tanıtım görseli, tüketicilere cihazın avantajlı özelliklerini vurgulayarak ilgi çekmeyi amaçlıyor."
+          }
+        ],
+        "stop_reason": "end_turn",
+        "stop_sequence": null,
+        "usage": {
+          "input_tokens": 1597,
+          "cache_creation_input_tokens": 0,
+          "cache_read_input_tokens": 0,
+          "output_tokens": 220
+        }
+      },
+      "time_spent_sec": 2.317656993865967,
+      "cost": 0.0006742499999999999,
+      "token_size": 0
+    },
+    "claude-3-opus-20240229": {
+      "response": {
+        "type": "error",
+        "error": {
+          "type": "overloaded_error",
+          "message": "Overloaded"
+        }
+      },
+      "time_spent_sec": 1.9933500289916992,
       "cost": 0.001,
       "token_size": 0
     }
   },
-  "ocr_translation_pipeline": {
+  "HuggingFace": {
+    "BLIP-Base": {
+      "response": [
+        {
+          "generated_text": "the new samsung vr headset is available in the us"
+        }
+      ],
+      "time_spent_sec": 0.5609540939331055,
+      "cost": 0.001,
+      "token_size": 12
+    }
+  },
+  "OCR": {
     "ocr": {
       "extracted_text": "正确\n选择\n按摩\n仪\n带来\n不\n一样\n的\n按摩\n体验\n品\n辰\n其他\n品牌\n智能\n头部\n按摩\n仪\n头部\n按摩\n仪\n不\n压迫\n头部\n舒适\n按摩\n按摩\n力度\n恰到好处\n力度\n过\n大\n压\n疼\n头部\n不仅\n不\n返\n松\n还\n伤\n头部\n360\n度\n气囊\n按摩\n气囊\n包围\n头部\n●\n无\n气囊\n按摩\n凸点\n式\n按摩\n损伤\n头部\n双\n档\n热敷\n按摩\n舒缓\n眼睛\n酸痛\n疲劳\n干涩\n●\n功能\n单一\n只有\n按摩\n没有\n热敷\n功能\n人体工学\n设计\n立体\n全\n包\n,\n佩戴\n舒适\n●\n设计\n不合理\n不\n贴\n合\n脸型\n,\n佩戴\n不适",
-      "time_spent_sec": 0.30684375762939453,
-      "cost": 0.0005,
+      "time_spent_sec": 0.2516300678253174,
+      "cost": 0.0,
       "text_length": 252
-    },
-    "translation": {
+    }
+  },
+  "Translation": {
+    "huggingface": {
       "translated_text": "The correct selection of massage machines brings in different massages, as well as other branded massages, smart head massages, head massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, massages, pains, dry fatigues, and a single function.",
-      "time_spent_sec": 3.1013948917388916,
+      "time_spent_sec": 4.5904130935668945,
       "cost": 0.0003,
       "text_length": 536
     }
